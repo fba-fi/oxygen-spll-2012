@@ -1,0 +1,80 @@
+/**
+ * Theme Name: Oxygen SPLL 2012
+ * Theme URI: http://alienwp.com/themes/oxygen/
+ * Description: Oxygen theme modifications for SPLL 2012
+ * Version: 0.1
+ * Author: Mikko Vatanen
+ * Author URI: http://alienwp.com
+ * Tags: flexible-width, theme-options, threaded-comments, microformats, translation-ready, rtl-language-support, three-columns, right-sidebar, left-sidebar, custom-background, featured-images
+ * Template: oxygen
+ *
+ * Copyright (c) 2011 Galin Simeonov.  All rights reserved.
+ * http://alienwp.com
+ */
+
+/* Load parent's CSS */
+@import url("../oxygen/style.css");
+
+body {
+    /*font-size:0.8em;*/
+}
+
+img.logo {
+	margin-bottom: 20px;
+}
+
+#header {
+	padding-top: 30px;
+}
+
+.featured-post h2.entry-title a {
+    opacity: .8;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* first! */
+    filter: alpha(opacity=80);                                        /* second! */
+}
+
+.featured-post .byline {
+    opacity: .8;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* first! */
+    filter: alpha(opacity=80);                                        /* second! */
+    padding: 3px 4px 4px 4px;
+}
+
+.featured-post:hover h2.entry-title a, .featured-post:hover .byline {
+    opacity: .8;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* first! */
+    filter: alpha(opacity=80);                                        /* second! */
+}
+
+.entry-content p {
+    font-size: 1.2em;
+}
+
+.entry-summary {
+    font-size: 1.1em;
+}
+
+.content-wrap-two-column {
+    width: 100%;
+}
+
+.content-two-column .entry-content {
+    width: 66.66666667;
+}
+
+#menu-primary li a {
+    font-size: 1.4em;
+    font-stretch: normal;
+}
+
+#header {
+    padding-bottom: 0px;
+}
+
+.featured-wrapper {
+    margin-bottom: 0;
+}
+
+#site-description {
+	display: none;
+}
